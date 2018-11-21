@@ -29,7 +29,7 @@ void loop(void)
     percent = ltc2941.getPercent();
     
     SERIAL.print(coulomb);
-    SERIAL.print("mC,");
+    SERIAL.print("C,");
     SERIAL.print(mAh);
     SERIAL.print("mAh,");
     SERIAL.print(percent);
