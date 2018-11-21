@@ -28,7 +28,7 @@ void loop(void)
     mAh = ltc2941.getmAhExpend();
     
     SERIAL.print(coulomb);
-    SERIAL.print("mC,");
+    SERIAL.print("C,");
     SERIAL.print(mAh);
     SERIAL.print("mAh");
     
